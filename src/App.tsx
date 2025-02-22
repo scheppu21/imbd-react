@@ -20,7 +20,7 @@ function AppContent() {
   const { theme } = useTheme(); // Get theme from context
 
   return (
-   <BrowserRouter basename={process.env.PUBLIC_URL || "/"}>
+  <BrowserRouter basename="/">
       <div className={theme === "dark" ? "dark" : ""}>
         <Navbar />
         <Routes>
