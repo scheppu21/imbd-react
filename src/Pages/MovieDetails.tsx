@@ -1,6 +1,6 @@
-import { Award, BarChart3, Calendar, Clock, DollarSign, Globe, Heart, Play, Share2, Star } from "lucide-react";
-import React from "react";
-import { Link, useParams } from "react-router-dom";
+import { Award, Calendar, Clock, Heart, Play, Share2, Star } from "lucide-react";
+
+import { useParams } from "react-router-dom";
 
 const MovieDetails = () => {
   const Movies = [
