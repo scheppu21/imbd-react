@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light Mode (Default) */
+/* Light Mode (Default) */
+body {
+  background-color: #f8f9fa; /* Light gray */
+  color: black;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark body {
+  background-color: black;
+  color: white;
+}
+body.dark {
+  background-color: #121212;
+  color: white;
+}
+
+
+/* Make sure other elements follow dark mode */
+.dark nav,
+.dark .content {
+  background-color: #1e1e1e; /* Dark navbar & content */
+  color: white;
+}
+
+
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .text-glow {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+
+  .hover-glow {
+    @apply transition-all duration-300;
+  }
+
+  .hover-glow:hover {
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));
+  }
+
+  .gradient-mask {
+    mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+  }
+}
+
+@layer components {
+  .movie-card-hover {
+    @apply transition-transform duration-300 shadow-lg;
+  }
+
+  .movie-card-hover:hover {
+    @apply -translate-y-2 shadow-2xl;
+  }
+
+  .toggle-button {
+    @apply px-4 py-2 rounded-md text-white bg-gray-700 transition-all duration-300 cursor-pointer;
+  }
+
+  body.dark .toggle-button {
+    @apply bg-white text-black;
+  }
+}
+
+
