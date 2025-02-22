@@ -1,11 +1,11 @@
 import "./App.css";
-import Navbar from "./components/Navbar.tsx";
+import Navbar from "./components/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Pages/Home.tsx";
-import MovieList from "./Pages/MovieList.tsx";
-import MovieDetails from "./Pages/MovieDetails.tsx";
-import Toprated from "./Pages/Toprated.tsx";
-import Actordetails from "./Pages/Actordetails.tsx";
+import Home from "./Pages/Home";
+import MovieList from "./Pages/MovieList";
+import MovieDetails from "./Pages/MovieDetails";
+import Toprated from "./Pages/Toprated";
+import Actordetails from "./Pages/Actordetails";
 import { ThemeProvider, useTheme } from "./context/ThemeContext"; // Import useTheme
 
 function App() {
