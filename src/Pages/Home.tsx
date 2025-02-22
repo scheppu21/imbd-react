@@ -3,7 +3,7 @@ import Hero from "../components/Hero";
 import { Award, Clock, Star, TrendingUp } from "lucide-react";
 import { Link } from "react-router-dom";
 import MovieCarousel from "../components/MovieCarousel";
-import { FC } from "react";
+
 
 
 // Movie Type
