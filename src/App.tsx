@@ -20,7 +20,7 @@ function AppContent() {
   const { theme } = useTheme(); // Get theme from context
 
   return (
-    <BrowserRouter basename="/imbd-react">
+   <BrowserRouter basename={process.env.PUBLIC_URL || "/"}>
       <div className={theme === "dark" ? "dark" : ""}>
         <Navbar />
         <Routes>
