@@ -1,4 +1,5 @@
 {
+  "homepage": "https://scheppu21.github.io/imbd-react/",
   "name": "imbd",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +16,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -38,8 +41,8 @@
     ]
   },
   "devDependencies": {
-    "@types/lodash": "^4.17.15",
     "@babel/plugin-proposal-private-property-in-object": "^7.18.6",
+    "@types/lodash": "^4.17.15",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "autoprefixer": "^10.4.20",
@@ -49,4 +52,5 @@
     "typescript": "^4.9.5"
   }
 }
+
 
