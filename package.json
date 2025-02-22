@@ -1,6 +1,6 @@
 {
- 
-  "name": "imbd",
+ "homepage": "/imbd-react"
+ "name": "imbd",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
