@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/imbd-react/static/css/main.d4e55100.css",
-    "main.js": "/imbd-react/static/js/main.083aa6c1.js",
+    "main.js": "/imbd-react/static/js/main.a046b4c7.js",
     "static/js/488.cb6a5403.chunk.js": "/imbd-react/static/js/488.cb6a5403.chunk.js",
     "index.html": "/imbd-react/index.html",
     "main.d4e55100.css.map": "/imbd-react/static/css/main.d4e55100.css.map",
-    "main.083aa6c1.js.map": "/imbd-react/static/js/main.083aa6c1.js.map",
+    "main.a046b4c7.js.map": "/imbd-react/static/js/main.a046b4c7.js.map",
     "488.cb6a5403.chunk.js.map": "/imbd-react/static/js/488.cb6a5403.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d4e55100.css",
-    "static/js/main.083aa6c1.js"
+    "static/js/main.a046b4c7.js"
   ]
 }
